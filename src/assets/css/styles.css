@@ -1,0 +1,46 @@
+.app {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+.app .apple {
+  width: 100%;
+  height: 5%;
+  background-color: #ed6663;
+}
+.app .samsung {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffc7c7;
+}
+.app .samsung .samsung__col1 {
+  width: 50%;
+  height: 100%;
+  background-color: #931a25;
+}
+.app .samsung .samsung__col2 {
+  width: 50%;
+  height: 100%;
+  background-color: #fe7171;
+}
+.app .hp {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffc7c7;
+}
+.app .hp .hp__col1 {
+  width: 50%;
+  height: 100%;
+  background-color: #cd0a0a;
+}
+.app .hp .hp__col2 {
+  width: 50%;
+  height: 100%;
+  background-color: #e11d74;
+}
